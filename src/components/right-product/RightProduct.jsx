@@ -5,7 +5,7 @@ export const RightProduct = ({ imgUrl, iconUrl, product }) => {
   const navigate = useNavigate();
 
   return (
-    <section className="product">
+    <section id={product} className="product">
       <div className="product-description">
         <img src={iconUrl} alt="product-icon" />
         <h3>Pufi {product}</h3>

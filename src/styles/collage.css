@@ -1,0 +1,19 @@
+.collage {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collage h4{
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.collage img{
+  width: 33%;
+  height: 70%;
+  padding-top: 50px;
+}

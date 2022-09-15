@@ -1,4 +1,4 @@
-import { Header, LeftProduct, RightProduct } from "../components";
+import { Collage, Header, LeftProduct, RightProduct } from "../components";
 
 import umbrellaScene from '../assets/images/umbrella.jpg';
 import umbrella from '../assets/images/umbrella-img.png';
@@ -14,6 +14,7 @@ import pillow from '../assets/images/pillow-img.png';
 
 import '../styles/header.css';
 import '../styles/product.css';
+import '../styles/collage.css';
 
 export const LandingPage = () => {
   return (
@@ -23,6 +24,7 @@ export const LandingPage = () => {
       <RightProduct imgUrl={puffScene} iconUrl={puff} product={'PUFF'}/>
       <LeftProduct imgUrl={cartScene} iconUrl={cart} product={'CART'}/>
       <RightProduct imgUrl={pillowScene} iconUrl={pillow} product={'NAP'}/>
+      <Collage />
     </>
   );
 };

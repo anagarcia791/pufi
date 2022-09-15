@@ -5,7 +5,7 @@ export const LeftProduct = ({ imgUrl, iconUrl, product }) => {
   const navigate = useNavigate();
 
   return (
-    <section className="product">
+    <section id={product} className="product">
       <div className="product-img">
         <img src={imgUrl} alt="product-img" />
         <button onClick={() => navigate(`/shop`)}>SHOP</button>
