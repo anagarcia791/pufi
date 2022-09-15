@@ -1,0 +1,46 @@
+.news-letter {
+  height: 40vh;
+  width: 100vw;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.news-letter p{
+  font-size: 12px;
+}
+
+.news-letter-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.news-letter-title h4{
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+.subscribe-form input, button{
+  align-content: center;
+  text-decoration: none;
+  border: transparent;
+  background-color: transparent;
+}
+
+fieldset {
+  border: solid 1px black;
+  padding-right: 10px;
+}
+
+.subscribe-form input {
+  width: 430px;
+  height: 40px;
+  padding: 10px;
+}
