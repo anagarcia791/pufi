@@ -1,7 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Slider } from "../slider/slider";
 import { NavBar } from "./NavBar";
-import '../../styles/slider.css';
 
 export const Header = () => {
   const navigate = useNavigate();

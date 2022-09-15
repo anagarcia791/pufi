@@ -20,6 +20,7 @@ import pillowScene from "../assets/images/pillow.jpg";
 import pillow from "../assets/images/pillow-img.png";
 
 import "../styles/header.css";
+import "../styles/slider.css";
 import "../styles/product.css";
 import "../styles/collage.css";
 import "../styles/newsletter.css";
