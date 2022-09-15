@@ -7,9 +7,9 @@ export const Header = () => {
   const navigate = useNavigate();
 
   const slides = [
-    { url: "src/assets/images/slide-1.jpg", title: "beach" },
-    { url: "src/assets/images/slide-2.jpg", title: "boat" },
-    { url: "src/assets/images/slide-3.jpg", title: "forest" },
+    { url: "https://raw.githubusercontent.com/anagarcia791/pufi/main/src/assets/images/slide-11.jpg", title: "beach" },
+    { url: "https://raw.githubusercontent.com/anagarcia791/pufi/main/src/assets/images/slide-22.jpg", title: "boat" },
+    { url: "https://raw.githubusercontent.com/anagarcia791/pufi/main/src/assets/images/slide-33.jpg", title: "forest" },
   ];
 
   return (
