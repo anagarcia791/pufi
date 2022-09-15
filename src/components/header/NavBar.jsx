@@ -1,27 +1,26 @@
-import { NavLink } from "react-router-dom";
-import { TbSofa, TbUmbrella } from 'react-icons/tb';
-import { FiShoppingBag } from 'react-icons/fi';
-import { BiHotel } from 'react-icons/bi';
+import { TbSofa, TbUmbrella } from "react-icons/tb";
+import { FiShoppingBag } from "react-icons/fi";
+import { BiHotel } from "react-icons/bi";
 
 export const NavBar = () => {
   return (
     <nav className="navbar">
-      <NavLink className="navbar-link border" to="#PUFF">
+      <a className="navbar-link border" href="#PUFF">
         <TbSofa />
         PUFI PUFF
-      </NavLink>
-      <NavLink className="navbar-link border" to="#RAIN">
+      </a>
+      <a className="navbar-link border" href="#RAIN">
         <TbUmbrella />
         PUFI RAIN
-      </NavLink>
-      <NavLink className="navbar-link border" to="#CART">
+      </a>
+      <a className="navbar-link border" href="#CART">
         <FiShoppingBag />
         PUFI CART
-      </NavLink>
-      <NavLink className="navbar-link" to="#NAP">
+      </a>
+      <a className="navbar-link" href="#NAP">
         <BiHotel />
         PUFI NAP
-      </NavLink>
+      </a>
     </nav>
   );
 };

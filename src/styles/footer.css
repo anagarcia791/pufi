@@ -1,0 +1,69 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 13px;
+  color: black;
+}
+
+.footer-item{
+  width: 15%;
+  padding: 0 10px 0 10px;
+  margin-left: 25px;
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-item a{
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-item svg {
+  margin-top: 8px;
+  height: 2em;
+  width: 2em;
+}
+
+.margin-right{
+  margin-right: 45px;
+}
+
+.logo{
+  font-family: "Fredoka", sans-serif;
+  font-size: 45px;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.safe{
+  display: flex;
+  align-items: center;
+}
+
+.safe img{
+  width: 75px;
+  height: 43px;
+}
+
+.shadow {
+  width: 100%;
+  border-top: solid 0.5px rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.rights-reserved{
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  color: #353434;
+}
