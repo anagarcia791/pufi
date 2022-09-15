@@ -28,7 +28,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="footer-item">
-          <p>SEGUINOS EN :</p>
+          <p>SÍGUENOS EN:</p>
           <div>
             <a href="https://es-la.facebook.com/">
               <FaFacebookF />

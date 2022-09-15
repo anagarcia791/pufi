@@ -10,10 +10,6 @@
   font-family: "Comfortaa", cursive;
 }
 
-.news-letter p{
-  font-size: 12px;
-}
-
 .news-letter-title{
   display: flex;
   flex-direction: column;
@@ -25,6 +21,11 @@
 .news-letter-title h4{
   padding-top: 10px;
   font-size: 35px;
+}
+
+.news-letter-title p{
+  padding-top: 5px;
+  font-size: 13px;
 }
 
 .subscribe-form input, button{

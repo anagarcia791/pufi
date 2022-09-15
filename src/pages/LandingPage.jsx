@@ -3,7 +3,7 @@ import {
   Footer,
   Header,
   LeftProduct,
-  NewsLetter,
+  Newsletter,
   RightProduct,
 } from "../components";
 
@@ -22,7 +22,7 @@ import pillow from "../assets/images/pillow-img.png";
 import "../styles/header.css";
 import "../styles/product.css";
 import "../styles/collage.css";
-import "../styles/news-letter.css"
+import "../styles/newsletter.css";
 import "../styles/footer.css";
 
 export const LandingPage = () => {
@@ -34,7 +34,7 @@ export const LandingPage = () => {
       <LeftProduct imgUrl={cartScene} iconUrl={cart} product={"CART"} />
       <RightProduct imgUrl={pillowScene} iconUrl={pillow} product={"NAP"} />
       <Collage />
-      <NewsLetter />
+      <Newsletter />
       <Footer />
     </>
   );

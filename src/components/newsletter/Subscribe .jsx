@@ -2,13 +2,13 @@ import { useForm, ValidationError } from "@formspree/react";
 import { FaArrowRight } from "react-icons/fa";
 
 export const Subscribe = () => {
-  const [state, handleSubmit] = useForm("xnqrjbnv");
+  const [state, handleSubmit] = useForm("mlevjbpk");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+      return <p>Thanks for joining!</p>;
   }
 
   return (
-    <form className="subscribe-form">
+    <form className="subscribe-form" onSubmit={handleSubmit}>
       <fieldset>
         <input
           id="email"
