@@ -30,10 +30,10 @@ export const LandingPage = () => {
   return (
     <>
       <Header />
-      <LeftProduct imgUrl={umbrellaScene} iconUrl={umbrella} product={"RAIN"} />
-      <RightProduct imgUrl={puffScene} iconUrl={puff} product={"PUFF"} />
-      <LeftProduct imgUrl={cartScene} iconUrl={cart} product={"CART"} />
-      <RightProduct imgUrl={pillowScene} iconUrl={pillow} product={"NAP"} />
+      <LeftProduct imgUrl={umbrellaScene} iconUrl={umbrella} product={"RAIN"} btn={true} />
+      <RightProduct imgUrl={puffScene} iconUrl={puff} product={"PUFF"} btn={false} />
+      <LeftProduct imgUrl={cartScene} iconUrl={cart} product={"CART"} btn={false} />
+      <RightProduct imgUrl={pillowScene} iconUrl={pillow} product={"NAP"} btn={false} />
       <Collage />
       <Newsletter />
       <Footer />

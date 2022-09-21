@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { MdArrowForwardIos } from "react-icons/md";
 
-export const RightProduct = ({ imgUrl, iconUrl, product }) => {
+export const RightProduct = ({ imgUrl, iconUrl, product, btn }) => {
   const navigate = useNavigate();
 
   return (
@@ -18,7 +18,7 @@ export const RightProduct = ({ imgUrl, iconUrl, product }) => {
       </div>
       <div className="product-img">
         <img src={imgUrl} alt="product-img" />
-        <button onClick={() => navigate(`/shop`)}>SHOP</button>
+        {btn &&<button onClick={() => navigate(`/shop`)}>SHOP</button>}
       </div>
     </section>
   );

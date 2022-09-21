@@ -1,14 +1,14 @@
 import { Link, useNavigate } from "react-router-dom";
 import { MdArrowForwardIos } from "react-icons/md";
 
-export const LeftProduct = ({ imgUrl, iconUrl, product }) => {
+export const LeftProduct = ({ imgUrl, iconUrl, product, btn }) => {
   const navigate = useNavigate();
 
   return (
     <section id={product} className="product">
       <div className="product-img">
         <img src={imgUrl} alt="product-img" />
-        <button onClick={() => navigate(`/shop`)}>SHOP</button>
+        {btn && <button onClick={() => navigate(`/shop`)}>SHOP</button>}
       </div>
       <div className="product-description">
         <img src={iconUrl} alt="product-icon" />
